@@ -1,0 +1,15 @@
+{
+  "files": [
+    "style/calculator.css",
+    { "pattern" : "node_modules/jquery/dist/jquery.js", "instrument": false },
+    "src/*.js",
+    "node_modules/chai/chai.js",
+    "test/helper/template.js"
+  ],
+
+  "tests": [
+    "test/*-spec.js"
+  ],
+
+  "testFramework": "mocha@2.0.1"
+}
